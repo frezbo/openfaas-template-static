@@ -28,7 +28,7 @@ Now `cd` into `static-side` folder and copy over the static contents
 
 ```bash
 cd static-site
-cat <<<EOF > index.html
+cat <<EOF > index.html
 <html>
 This is a static page served by OpenFaas.
 </html>
