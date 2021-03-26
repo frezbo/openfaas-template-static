@@ -1,5 +1,4 @@
-# Update to use GHCR images once this is merged: https://github.com/openfaas/of-watchdog/pull/114
-FROM --platform=${BUILDPLATFORM:-linux/amd64} openfaas/of-watchdog:0.8.2 AS watchdog
+FROM --platform=${BUILDPLATFORM:-linux/amd64} ghcr.io/openfaas/of-watchdog:0.8.4 AS watchdog
 
 ARG BUILDPLATFORM
 
