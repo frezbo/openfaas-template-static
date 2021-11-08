@@ -1,4 +1,4 @@
-FROM --platform=${BUILDPLATFORM:-linux/amd64} ghcr.io/openfaas/of-watchdog:0.9.0 AS watchdog
+FROM --platform=${BUILDPLATFORM:-linux/amd64} ghcr.io/openfaas/of-watchdog:0.9.1 AS watchdog
 
 ARG BUILDPLATFORM
 
